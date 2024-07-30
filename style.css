@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 100px auto;
+    border: 1px solid black;
+    width:50%;
+}
+.header{
+    background-color: rgb(16, 18, 134);
+    color: antiquewhite;
+    height: 60px;
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+}
+.maindiv{
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
+}
+.nadiv{
+    margin-left: 45px;
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    width:40%;
+}
+.inputdiv select,label{
+    font-size: 1.5em;
+}
+input{
+    margin-top: 10px;
+    height: 30px;
+}
+table,td,th{
+    border: 1px solid black;
+    font-size: 1em;
+}
+table{
+    margin-left: 28px;
+    text-align: center;
+    margin-top: 20px;
+    width: 90%;
+}
+.buttondiv{
+    text-align: center;
+    padding: 10px 20px;
+}
+button{
+    padding: 10px 20px;
+}
